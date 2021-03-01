@@ -7,6 +7,6 @@ Here is an example of the risk scores generated for sushiswap -
 ![scores](images/scores.png)
 
 
-The solana-flux-aggregator is used as an oracle to read the risk scores from the computation engine. It is slightly modified to read the risk score using websockets from the tornado server launched previously. The aggregator picks up a risk score value of 50% in the screenshot below -
+The [solana-flux-aggregator](https://github.com/cdot-network/solana-flux-aggregator) is used as an oracle to read the risk scores from the computation engine. It is slightly modified to read the risk score using websockets from the tornado server launched previously. The aggregator picks up a risk score value of 50% in the screenshot below -
 
 ![solink oracle observe](images/solink.png)
